@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram id="9f0s1mw59uzVkmog4RB2" name="Page-1">
+    <mxGraphModel dx="1042" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="AC Power Source" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="178" y="8" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Rectifier" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="208" y="134" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="DC Link" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="103" y="261" width="114" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Inverter" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="101" y="387" width="117" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Induction Motor" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="514" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Diodes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="266" y="261" width="107" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Switches" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="231" y="514" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="AC" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0.01;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="DC" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1.01;entryX=0.5;entryY=0;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="DC" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="AC" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.5;entryY=-0.01;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="94" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Diodes" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1.01;entryX=0.17;entryY=0;" parent="1" source="3" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Rectification" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.56;exitY=0;entryX=0.72;entryY=1.01;" parent="1" source="7" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Switches" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.27;entryY=-0.01;" parent="1" source="5" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Inversion" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.65;exitY=-0.01;entryX=1;entryY=0.89;" parent="1" source="8" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
